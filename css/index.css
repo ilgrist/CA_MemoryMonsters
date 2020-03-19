@@ -1,0 +1,83 @@
+.header {
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  /* border-bottom: 2px solid black; */
+}
+
+.centerPage {
+  border: 150px solid white;
+  box-shadow: 10px 10px 10px grey;
+  border-bottom: 0px;
+  border-top: 0px;
+  padding: 5px;
+}
+
+img {
+  float: right;
+  height: 150px;
+  transform: rotate(90deg);
+  padding-bottom: 20px;
+}
+.headerText {
+  text-align: left;
+  margin: 0px;
+  padding: 0px 20px 10px 0px;
+}
+
+p {
+  font-weight: normal;
+}
+
+body {
+  font-family: Calibri;
+  margin-top: 0px;
+}
+
+h1 {
+  color: brown;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.name {
+  border-top: 0px;
+  margin: 0px;
+}
+a[href]:link {
+  font-weight: normal;
+  text-decoration: none;
+  color: brown;
+}
+
+a[href]:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+table {
+  width: 90%;
+}
+td.jobYears {
+  text-align: right;
+}
+
+td.jobTitle {
+  font-weight: bold;
+  color: brown;
+}
+
+td.workplaceName {
+  font-weight: bold;
+}
+
+button {
+  border: 1px solid black;
+  background-color: white;
+  color: brown;
+  font-weight: bold;
+  padding: 10px;
+}

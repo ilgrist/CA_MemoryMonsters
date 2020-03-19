@@ -1,0 +1,55 @@
+.header {
+  background-color: lightblue;
+  padding: 20px;
+  border-bottom: 10px solid darkcyan;
+  color: darkcyan;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.header img {
+  float: right;
+}
+
+.card {
+  background-color: pink;
+  height: 165px;
+  width: 165px;
+  float: left;
+  margin: 5px;
+}
+
+.card img {
+  position: absolute;
+}
+
+.flipped .back {
+  display: none;
+}
+p {
+  color: darkcyan;
+  font-size: 1.5em;
+  text-align: left;
+}
+button {
+  background-color: darkcyan;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+#resetButton {
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+.hidden {
+  display: none;
+}
